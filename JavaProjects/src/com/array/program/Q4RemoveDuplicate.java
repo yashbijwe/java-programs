@@ -7,7 +7,6 @@ public class Q4RemoveDuplicate {
 
         int k = removeDuplicates(arr);
 
-        // print unique elements
         System.out.print("Array after removing duplicates: ");
         for (int i = 0; i < k; i++) {
             System.out.print(arr[i] + " ");
@@ -26,6 +25,6 @@ public class Q4RemoveDuplicate {
             }
         }
 
-        return i + 1; // new size
+        return i + 1; 
     }
 }
